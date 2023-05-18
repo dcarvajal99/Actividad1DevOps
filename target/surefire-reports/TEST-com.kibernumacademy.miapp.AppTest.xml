@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kibernumacademy.miapp.AppTest" time="0.068" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kibernumacademy.miapp.AppTest" time="0.115" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\crist\AppData\Local\Temp\surefire1501099728901959080\surefirebooter-20230518193933221_3.jar C:\Users\crist\AppData\Local\Temp\surefire1501099728901959080 2023-05-18T19-39-32_990-jvmRun1 surefire-20230518193933221_1tmp surefire_0-20230518193933221_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\crist\AppData\Local\Temp\surefire12798788074374128459\surefirebooter-20230518195233918_3.jar C:\Users\crist\AppData\Local\Temp\surefire12798788074374128459 2023-05-18T19-52-33_665-jvmRun1 surefire-20230518195233918_1tmp surefire_0-20230518195233918_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\crist\OneDrive\Documentos\DevOps Bootcamp\portfolio\ControlInventario\target\test-classes;C:\Users\crist\OneDrive\Documentos\DevOps Bootcamp\portfolio\ControlInventario\target\classes;C:\Users\crist\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\crist\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\crist\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\crist\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\crist\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.11.0\maven-compiler-plugin-3.11.0.jar;C:\Users\crist\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\crist\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\crist\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\crist\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\crist\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.13.0\plexus-compiler-api-2.13.0.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.13.0\plexus-compiler-manager-2.13.0.jar;C:\Users\crist\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.13.0\plexus-compiler-javac-2.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\crist\AppData\Local\Temp\surefire1501099728901959080\surefirebooter-20230518193933221_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\crist\AppData\Local\Temp\surefire12798788074374128459\surefirebooter-20230518195233918_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
@@ -57,6 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testcalculateDoubleEvens" classname="com.kibernumacademy.miapp.AppTest" time="0.039"/>
-  <testcase name="testConvertToUpperCase" classname="com.kibernumacademy.miapp.AppTest" time="0.003"/>
+  <testcase name="testcalculateDoubleEvens" classname="com.kibernumacademy.miapp.AppTest" time="0.065"/>
+  <testcase name="testConvertToUpperCase" classname="com.kibernumacademy.miapp.AppTest" time="0.004"/>
 </testsuite>
