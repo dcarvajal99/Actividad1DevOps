@@ -31,7 +31,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>cl.miguelramos.miapp.App</mainClass>
+              <mainClass>com.kibernumacademy.miapp.App</mainClass>
             </manifest>
           </archive>
         </configuration>
