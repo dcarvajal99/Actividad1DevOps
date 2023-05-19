@@ -6,25 +6,25 @@ import java.util.stream.Collectors;
 
 public class App {
 	
-	public static int calculateDoubleEvens(List<Integer> numbers) {
+	public static int calculateDoubleOdds(List<Integer> numbers) {
         return numbers.stream()
-                .filter(n -> n % 2 == 0)
+                .filter(n -> n % 2 != 0)
                 .mapToInt(n -> n * 2)
                 .sum();
     }
 
-    public static List<String> convertToUpperCase(List<String> strings) {
+    public static List<String> convertToLowerCase(List<String> strings) {
         return strings.stream()
-                .map(String::toUpperCase)
+                .map(String::toLowerCase)
                 .collect(Collectors.toList());
     }
 
 	public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        System.out.println("La suma es: " + calculateDoubleEvens(numbers));
+        System.out.println("La suma de los impares * 2 es: " + calculateDoubleOdds(numbers));
 
-        List<String> strings = Arrays.asList("hola", "mundo", "java", "8");
-        System.out.println("Las palabras en mayúsculas son: " + convertToUpperCase(strings));
+        List<String> strings = Arrays.asList("HOLA", "MUNDO", "java", "8");
+        System.out.println("Las palabras en minusculas son: " + convertToLowerCase(strings));
     }
 
 }

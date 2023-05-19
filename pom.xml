@@ -4,6 +4,10 @@
   <artifactId>ControlInventario</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>ControlInventario</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
   <description>Este es un proyecto para control de inventario</description>
   
   <dependencies>
@@ -46,7 +50,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.0</version>
+        <version>3.3.0</version>
         <configuration>
           <archive>
             <manifest>

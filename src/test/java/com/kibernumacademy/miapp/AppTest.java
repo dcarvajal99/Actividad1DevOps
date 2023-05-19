@@ -10,13 +10,13 @@ public class AppTest {
 	@Test
     void testcalculateDoubleEvens() {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        assertEquals(60, App.calculateDoubleEvens(numbers));
+        assertEquals(50, App.calculateDoubleOdds(numbers));
     }
 
     @Test
     void testConvertToUpperCase() {
-        List<String> strings = Arrays.asList("hola", "mundo", "java", "8");
-        assertEquals(Arrays.asList("HOLA", "MUNDO", "JAVA", "8"), App.convertToUpperCase(strings));
+        List<String> strings = Arrays.asList("HOLA", "MUNDO", "java", "8");
+        assertEquals(Arrays.asList("hola", "mundo", "java", "8"), App.convertToLowerCase(strings));
     }
 
 }
